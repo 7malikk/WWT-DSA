@@ -44,8 +44,6 @@ let convStringArray = () => {
   return testLetter.split(' ');
 };
 
-convStringArray();
-
 let detectThreatLevel = (threats) => {
   let wordsFound = [];
   let threatCounter = 0;
